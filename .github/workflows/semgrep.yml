@@ -15,7 +15,7 @@ jobs:
               --output report.log \
               --config="p/default"
         - name: save report as pipeline artifact
-          uses: actions/upload-artifact@v3
+          uses: actions/upload-pages-artifact@v3
           with:
             name: report.log
             path: report.log
